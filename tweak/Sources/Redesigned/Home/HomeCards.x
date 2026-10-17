@@ -50,7 +50,6 @@ static void backing(UIView *card, BOOL large) {
 
 // A large card's text sits a little in from the glass card's edges, rather than on them.
 static const CGFloat kTextInset = 10;
-static char kInsetKey;
 
 static void centerText(UIView *card, UIView *holder, BOOL large) {
     SGForEachView(card, ^(UIView *v) {
