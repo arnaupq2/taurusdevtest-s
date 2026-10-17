@@ -21,7 +21,7 @@
 #import "Redesigned/Kit/SGRTokens.h"
 #import <NaturalLanguage/NaturalLanguage.h>
 
-static const CGFloat kFontSize = 30, kMargin = 24, kLineGap = 24, kRowTighten = 2;
+static const CGFloat kMargin = 24, kRowTighten = 2;
 static const CGFloat kCompactMargin = 24, kCompactGap = 6;   // the preview under the player's cover: tighter room, a peek of the next line
 static const CGFloat kDimAlpha = 0.3;
 // The animation chosen on the Lyrics page (SGRLyricsAnimation), read for every view when the look changes.
